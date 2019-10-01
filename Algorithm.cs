@@ -947,6 +947,8 @@ namespace KM_Cshaft.BaseClass
         public DateTime getdateofnextweekday(int weekday)
         {
             DateTime rs = DateTime.Now;
+            int h;
+            h = 0;
             int currweekday = ((int)rs.DayOfWeek);
             DateTime day0ofthisweek = rs.AddDays(-currweekday);
             DateTime day0ofnextweek = day0ofthisweek.AddDays(7);
