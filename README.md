@@ -1,2 +1,2 @@
 # hello-world
-#code something shere
+#code somethings here
